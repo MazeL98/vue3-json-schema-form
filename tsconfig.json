@@ -33,7 +33,14 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "tests/**/*.tsx",
+    "src/lib/test.js",
+    "tests/unit/base.spec.tsxxx",
+    "tests/unit/ObjField.spec.ts",
+    "tests/unit/ArrayField.spec.ts",
+    "tests/unit/RetrieveSchema.spec.ts",
+    "tests/unit/MultiSchemaField.spec.ts",
+    "tests/unit/RetrieveSchema.spec.ts"
   ],
   "exclude": [
     "node_modules"

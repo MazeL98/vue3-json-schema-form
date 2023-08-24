@@ -1,0 +1,52 @@
+$mainColor: #39828f;
+$hoverColor: #619ba5;
+$fontColor: #5f5d5e;
+
+.el-form {
+  .el-form-item {
+    flex-direction: column;
+    margin-bottom: 5px;
+    .el-form-item__label {
+      height: auto;
+      line-height: normal;
+      font-size: 14px;
+      color: $fontColor;
+      font-weight: 400;
+    }
+    .el-form-item__content {
+      display: block;
+    }
+  }
+}
+
+.el-card__body {
+  padding: 30px;
+}
+
+.el-button {
+  --el-button-border-color: '#39828f';
+  --el-button-bg-color: ' #39828f';
+  --el-button-text-color: '#ffffff';
+  --el-button-disabled-text-color: '#ffffff';
+  --el-button-disabled-bg-color: '#619ba5';
+  --el-button-disabled-border-color: '#619ba5';
+  --el-button-hover-text-color: '#ffffff !important';
+  --el-button-hover-bg-color: '#619ba5';
+  --el-button-active-text-color: '#ffffff';
+  --el-button-active-bg-color: '#39828f';
+  --el-button-hover-link-text-color: '#ffffff';
+  --el-button-active-color: '#ffffff';
+}
+
+.el-slider {
+  width: 350px;
+  .el-slider__bar {
+    background-color: $mainColor;
+  }
+  .el-slider__button {
+    border-color: $mainColor;
+  }
+}
+.el-upload-list {
+  width: 100%;
+}
