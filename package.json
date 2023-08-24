@@ -5,8 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "t": "vue-cli-service test:unit",
-    "t:cov": "vue-cli-service test:unit --coverage",
+    "test": "vue-cli-service test:unit",
+    "test:unit:cov": "vue-cli-service test:unit --coverage",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
