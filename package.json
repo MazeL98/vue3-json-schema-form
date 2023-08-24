@@ -3,18 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "cross-env use_analyzer=true vue-cli-service serve",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test": "vue-cli-service test:unit",
     "test:unit:cov": "vue-cli-service test:unit --coverage",
     "lint": "vue-cli-service lint",
-    "analyzer": "cross-env use_analyzer=true npm run build"
+    "analyzer": "cross-env use_analyzer=true vue-cli-service serve"
   },
   "dependencies": {
     "@vue/composition-api": "^1.7.1",
     "ajv": "^8.12.0",
     "ajv-errors": "^3.0.0",
     "ajv-i18n": "^4.2.0",
+    "compression-webpack-plugin": "^10.0.0",
     "core-js": "^3.8.3",
     "easy-monitor": "^2.2.8",
     "element-plus": "^2.3.7",
