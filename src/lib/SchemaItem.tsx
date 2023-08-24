@@ -31,7 +31,6 @@ export default defineComponent({
       // return formContext.updateSchemaRef.value(
       //   retrieveSchema(schema, rootSchema, value)
       // )
-      console.log(retrieveSchema(schema, rootSchema, value))
 
       return retrieveSchema(schema, rootSchema, value)
     })
@@ -62,7 +61,6 @@ export default defineComponent({
         rootSchema
       } = props
       const retrievedSchema = retrievedSchemaRef.value
-      console.log(retrievedSchema)
 
       const type = retrievedSchema.type
       let Component: any

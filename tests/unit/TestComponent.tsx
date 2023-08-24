@@ -35,9 +35,14 @@ export default defineComponent({
     const contextRef: Ref = ref()
     return () => {
       function valideForm() {
-        contextRef.value.doValidate().then((result: any) => {
-          console.log(result)
-        })
+        contextRef.value
+          .doValidate()
+          .then((result: any) => {
+            console.log(result)
+          })
+          .catch((error: Error) => {
+            console.error(error.message)
+          })
       }
       return (
         <TestThemeProvider>
